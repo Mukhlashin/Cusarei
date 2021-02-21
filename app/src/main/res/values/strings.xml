@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cusarei</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="insert_data">Insert data</string>
+    <string name="log">Log</string>
+    <string name="_19_02_2020">19/02/2020</string>
+    <string name="nama_barang">Nama barang</string>
+    <string name="diskon">Diskon</string>
+    <string name="harga">Harga</string>
+    <string name="kuantitas">Kuantitas</string>
+    <string name="masukkan_data_penjualan">Masukkan data penjualan</string>
+    <string name="kirim">Kirim</string>
+</resources>
