@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -12,7 +13,7 @@ android {
         }
 
     defaultConfig {
-        applicationId "com.example.cusarei"
+        applicationId "com.cmd.cusarei"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
@@ -77,4 +78,8 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.0'
     implementation 'pub.devrel:easypermissions:2.0.1'
     implementation 'com.vincent.filepicker:MultiTypeFilePicker:1.0.7'
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:28.3.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 }
